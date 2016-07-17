@@ -1,0 +1,192 @@
+{
+	"name" : "Melakarta",
+	"level" : 1,
+	"scale" : "",
+	"children" : 
+	[
+		{
+			"name" : "Shuddha Madhyama",
+			"level" : 2,
+			"scale" : "M1",
+			"children" : 
+			[
+				{
+					"name" : "Indu Chakra",
+					"level" : 3,
+					"scale" : "R1 G1",
+					"children" : 
+					[
+						{"name" : "Kanakangi","level" : 4, "scale" : "S R1 G1 M1 P D1 N1 S"},
+						{"name" : "Ratnangi","level" : 4, "scale" : "S R1 G1 M1 P D1 N2 S"},
+						{"name" : "Ganamurti","level" : 4, "scale" : "S R1 G1 M1 P D1 N3 S"},
+						{"name" : "Vanaspati","level" : 4, "scale" : "S R1 G1 M1 P D2 N2 S"},
+						{"name" : "Manavati","level" : 4, "scale" : "S R1 G1 M1 P D2 N3 S"},
+						{"name" : "Tanarupi","level" : 4, "scale" : "S R1 G1 M1 P D3 N3 S"}
+					]
+				},
+				{
+					"name" : "Netra Chakra",
+					"level" : 3,
+					"scale" : "R1 G2",
+					"children" : 
+					[
+						{"name" : "Senavati","level" : 4, "scale" : "S R1 G2 M1 P D1 N1 S"},
+						{"name" : "Hanumatodi","level" : 4, "scale" : "S R1 G2 M1 P D1 N2 S"},
+						{"name" : "Dhenuka","level" : 4, "scale" : "S R1 G2 M1 P D1 N3 S"},
+						{"name" : "Natakapriya","level" : 4, "scale" : "S R1 G2 M1 P D2 N2 S"},
+						{"name" : "Kokilapriya","level" : 4, "scale" : "S R1 G2 M1 P D2 N3 S"},
+						{"name" : "Rupavati","level" : 4, "scale" : "S R1 G2 M1 P D3 N3 S"}
+					]
+				},
+				{
+					"name" : "Agni Chakra",
+					"level" : 3,
+					"scale" : "R1 G3",
+					"children" : 
+					[
+						{"name" : "Gayakapriya","level" : 4, "scale" : "S R1 G3 M1 P D1 N1 S"},
+						{"name" : "Vakulabharanam","level" : 4, "scale" : "S R1 G3 M1 P D1 N2 S"},
+						{"name" : "Mayamalava Gowla","level" : 4, "scale" : "S R1 G3 M1 P D1 N3 S"},
+						{"name" : "Chakravakam","level" : 4, "scale" : "S R1 G3 M1 P D2 N2 S"},
+						{"name" : "Suryakantam","level" : 4, "scale" : "S R1 G3 M1 P D2 N3 S"},
+						{"name" : "Hatakambari","level" : 4, "scale" : "S R1 G3 M1 P D3 N3 S"}
+					]
+				},
+				{
+					"name" : "Veda Chakra",
+					"level" : 3,
+					"scale" : "R2 G2",
+					"children" : 
+					[
+						{"name" : "Jhankaradhwani","level" : 4, "scale" : "S R2 G2 M1 P D1 N1 S"},
+						{"name" : "Natabhairavi","level" : 4, "scale" : "S R2 G2 M1 P D1 N2 S"},
+						{"name" : "Kiravani","level" : 4, "scale" : "S R2 G2 M1 P D1 N3 S"},
+						{"name" : "Karaharapriya","level" : 4, "scale" : "S R2 G2 M1 P D2 N2 S"},
+						{"name" : "Gowri Manohari","level" : 4, "scale" : "S R2 G2 M1 P D2 N3 S"},
+						{"name" : "Varunapriya","level" : 4, "scale" : "S R2 G2 M1 P D3 N3 S"}
+					]
+				},
+				{
+					"name" : "Bana Chakra",
+					"level" : 3,
+					"scale" : "R2 G3",
+					"children" : 
+					[
+						{"name" : "Mararanjani","level" : 4, "scale" : "S R2 G3 M1 P D1 N1 S"},
+						{"name" : "Charukesi","level" : 4, "scale" : "S R2 G3 M1 P D1 N2 S"},
+						{"name" : "Sarasangi","level" : 4, "scale" : "S R2 G3 M1 P D1 N3 S"},
+						{"name" : "Harikambhoji","level" : 4, "scale" : "S R2 G3 M1 P D2 N2 S"},
+						{"name" : "Dhira Shankarabharanam","level" : 4, "scale" : "S R2 G3 M1 P D2 N3 S"},
+						{"name" : "Naganandini","level" : 4, "scale" : "S R2 G3 M1 P D3 N3 S"}
+					]
+				},
+				{
+					"name" : "Rutu Chakra",
+					"level" : 3,
+					"scale" : "R3 G3",
+					"children" : 
+					[
+						{"name" : "Yagapriya","level" : 4, "scale" : "S R3 G3 M1 P D1 N1 S"},
+						{"name" : "Ragavardhini","level" : 4, "scale" : "S R3 G3 M1 P D1 N2 S"},
+						{"name" : "Gangayabushani","level" : 4, "scale" : "S R3 G3 M1 P D1 N3 S"},
+						{"name" : "Vagadishwari","level" : 4, "scale" : "S R3 G3 M1 P D2 N2 S"},
+						{"name" : "Shulini","level" : 4, "scale" : "S R3 G3 M1 P D2 N3 S"},
+						{"name" : "Calanattai","level" : 4, "scale" : "S R3 G3 M1 P D3 N3 S"}
+					]
+				}
+			]
+		},
+		{
+			"name" : "Prati Madhyama",
+			"level" : 2,
+			"scale" : "M2",
+			"children" : 
+			[
+				{
+					"name" : "Rishi Chakra",
+					"level" : 3,
+					"scale" : "R1 G1",
+					"children" : 
+					[
+						{"name" : "Salagam","level" : 4, "scale" : "S R1 G1 M2 P D1 N1 S"},
+						{"name" : "Jalavarnam","level" : 4, "scale" : "S R1 G1 M2 P D1 N2 S"},
+						{"name" : "Jhalavarali","level" : 4, "scale" : "S R1 G1 M2 P D1 N3 S"},
+						{"name" : "Navaneetam","level" : 4, "scale" : "S R1 G1 M2 P D2 N2 S"},
+						{"name" : "Pavani","level" : 4, "scale" : "S R1 G1 M2 P D2 N3 S"},
+						{"name" : "Raghupriya","level" : 4, "scale" : "S R1 G1 M2 P D3 N3 S"}
+					]
+				},
+				{
+					"name" : "Vasu Chakra",
+					"level" : 3,
+					"scale" : "R1 G2",
+					"children" : 
+					[
+						{"name" : "Ghavambhodi","level" : 4, "scale" : "S R1 G2 M2 P D1 N1 S"},
+						{"name" : "Bhavapriya","level" : 4, "scale" : "S R1 G2 M2 P D1 N2 S"},
+						{"name" : "Shubhapantuvarali","level" : 4, "scale" : "S R1 G2 M2 P D1 N3 S"},
+						{"name" : "Shadvidamargini","level" : 4, "scale" : "S R1 G2 M2 P D2 N2 S"},
+						{"name" : "Suvarnangi","level" : 4, "scale" : "S R1 G2 M2 P D2 N3 S"},
+						{"name" : "Divyamani","level" : 4, "scale" : "S R1 G2 M2 P D3 N3 S"}
+					]
+				},
+				{
+					"name" : "Brahma Chakra",
+					"level" : 3,
+					"scale" : "R1 G3",
+					"children" : 
+					[
+						{"name" : "Dhavalambari","level" : 4, "scale" : "S R1 G3 M2 P D1 N1 S"},
+						{"name" : "Namanarayani","level" : 4, "scale" : "S R1 G3 M2 P D1 N2 S"},
+						{"name" : "Kamavardhini","level" : 4, "scale" : "S R1 G3 M2 P D1 N3 S"},
+						{"name" : "Ramapriya","level" : 4, "scale" : "S R1 G3 M2 P D2 N2 S"},
+						{"name" : "Gamanashrama","level" : 4, "scale" : "S R1 G3 M2 P D2 N3 S"},
+						{"name" : "Vishwambari","level" : 4, "scale" : "S R1 G3 M2 P D3 N3 S"}
+					]
+				},
+				{
+					"name" : "Disi Chakra",
+					"level" : 3,
+					"scale" : "R2 G2",
+					"children" : 
+					[
+						{"name" : "Shamalangi","level" : 4, "scale" : "S R2 G2 M2 P D1 N1 S"},
+						{"name" : "Shanmughapriya","level" : 4, "scale" : "S R2 G2 M2 P D1 N2 S"},
+						{"name" : "Simhendra Madhyamam","level" : 4, "scale" : "S R2 G2 M2 P D1 N3 S"},
+						{"name" : "Hemavati","level" : 4, "scale" : "S R2 G2 M2 P D2 N2 S"},
+						{"name" : "Dharmavati","level" : 4, "scale" : "S R2 G2 M2 P D2 N3 S"},
+						{"name" : "Nitimati","level" : 4, "scale" : "S R2 G2 M2 P D3 N3 S"}
+					]
+				},
+				{
+					"name" : "Rudra Chakra",
+					"level" : 3,
+					"scale" : "R2 G3",
+					"children" : 
+					[
+						{"name" : "Kantamani","level" : 4, "scale" : "S R2 G3 M2 P D1 N1 S"},
+						{"name" : "Rishabhapriya","level" : 4, "scale" : "S R2 G3 M2 P D1 N2 S"},
+						{"name" : "Latangi","level" : 4, "scale" : "S R2 G3 M2 P D1 N3 S"},
+						{"name" : "Vachaspati","level" : 4, "scale" : "S R2 G3 M2 P D2 N2 S"},
+						{"name" : "Mechakalyani","level" : 4, "scale" : "S R2 G3 M2 P D2 N3 S"},
+						{"name" : "Chitrambari","level" : 4, "scale" : "S R2 G3 M2 P D3 N3 S"}
+					]
+				},
+				{
+					"name" : "Aditya Chakra",
+					"level" : 3,
+					"scale" : "R3 G3",
+					"children" : 
+					[
+						{"name" : "Sucaritra","level" : 4, "scale" : "S R3 G3 M2 P D1 N1 S"},
+						{"name" : "Jyotiswarupini","level" : 4, "scale" : "S R3 G3 M2 P D1 N2 S"},
+						{"name" : "Dhatuvardani","level" : 4, "scale" : "S R3 G3 M2 P D1 N3 S"},
+						{"name" : "Nasikabhushani","level" : 4, "scale" : "S R3 G3 M2 P D2 N2 S"},
+						{"name" : "Kosalam","level" : 4, "scale" : "S R3 G3 M2 P D2 N3 S"},
+						{"name" : "Rasikapriya","level" : 4, "scale" : "S R3 G3 M2 P D3 N3 S"}
+					]
+				}
+			]
+		}
+	]
+}

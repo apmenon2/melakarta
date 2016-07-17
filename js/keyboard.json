@@ -1,0 +1,101 @@
+{
+	"keys" : [
+		{
+			"name" : "S",
+			"name2": "",
+			"title" : "C4",
+			"note" : "C4",
+			"color" : "white",
+			"start" : 0
+		},
+		{
+			"name" : "R2",
+			"name2": "G1",
+			"title" : "D4",
+			"note" : "D4",
+			"color" : "white",
+			"start" : 100
+		},
+		{
+			"name" : "G3",
+			"name2": "",
+			"title" : "E4",
+			"note" : "E4",
+			"color" : "white",
+			"start" : 200
+		},
+		{
+			"name" : "M1",
+			"name2": "",
+			"title" : "F4",
+			"note" : "F4",
+			"color" : "white",
+			"start" : 300
+		},
+		{
+			"name" : "P",
+			"name2": "",
+			"title" : "G4",
+			"note" : "G4",
+			"color" : "white",
+			"start" : 400
+		},
+		{
+			"name" : "D2",
+			"name2": "N1",
+			"title" : "A4",
+			"note" : "A4",
+			"color" : "white",
+			"start" : 500
+		},
+		{
+			"name" : "N3",
+			"name2": "",
+			"title" : "B4",
+			"note" : "B4",
+			"color" : "white",
+			"start" : 600
+		},
+		{
+			"name" : "R1",
+			"name2": "",
+			"title" : "C#4",
+			"note" : "Db4",
+			"color" : "black",
+			"start" : 70
+
+		},
+		{
+			"name" : "R3",
+			"name2": "G2",
+			"title" : "D#4",
+			"note" : "Eb4",
+			"color" : "black",
+			"start" : 170
+		},
+		{
+			"name" : "M2",
+			"name2": "",
+			"title" : "F#4",
+			"note" : "Gb4",
+			"color" : "black",
+			"start" : 370
+		},
+		{
+			"name" : "D1",
+			"name2": "",
+			"title" : "G#4",
+			"note" : "Ab4",
+			"color" : "black",
+			"start" : 470
+		},
+		{
+			"name" : "D3",
+			"name2": "N2",
+			"title" : "A#4",
+			"note" : "Bb4",
+			"color" : "black",
+			"start" : 570
+		}
+	]
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Melakarta Ragas</title>
+	<meta name="description" content="Learn the 72 Melakarta Ragas (scales) of South Indian Carnatic music with audio and visual representations."> 
+	<meta name="keywords" content="Carnatic Ragas, Melakarta Ragas, Melakarta Scale, Melakarta Sounds, Melakarta Chart">
+	<link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/components/icon.min.css'>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="keyboardContainer"></div>
+<div id="westernCheck" class="ui slider checkbox">
+  <input type="checkbox" name="newsletter">
+  <label>Western Notes</label>
+</div>
+<div id="carnaticCheck" class="ui slider checkbox">
+  <input type="checkbox" name="newsletter">
+  <label>Carnatic Notes</label>
+</div>
+<script src="js/midi-writer-js.js"></script>
+<script src="js/d3.min.js"></script> 
+<script src="js/jquery-3.0.0.min.js"></script> 
+<script src="js/jquery.scrollTo.min.js"></script>
+<script src="js/semantic.min.js"></script>
+<script type='text/javascript' src='http://www.midijs.net/lib/midi.js'></script>
+<script src="js/compositions.js"></script>
+<script src="js/keyboard.js"></script>
+<script src="js/midi.min.js"></script>
+<script>
+$('#westernCheck').checkbox({
+	onChecked: function(){
+		$('.westernNote').css("visibility","visible");
+	},
+	onUnchecked: function() {
+      	$('.westernNote').css("visibility","hidden");
+    }
+});
+
+$('#carnaticCheck').checkbox({
+	onChecked: function(){
+		$('.carnaticNote').css("visibility","visible");
+	},
+	onUnchecked: function() {
+     	$('.carnaticNote').css("visibility","hidden");
+    }
+});
+</script>
+</body>
+</html>

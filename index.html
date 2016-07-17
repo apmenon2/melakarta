@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Melakarta Ragas</title>
+	<meta name="description" content="Learn the 72 Melakarta Ragas (scales) of South Indian Carnatic music with audio and visual representations."> 
+	<meta name="keywords" content="Carnatic Ragas, Melakarta Ragas, Melakarta Scale, Melakarta Sounds, Melakarta Chart">
+	<link rel="stylesheet" type="text/css" href="css/semantic.min.css">
+	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/components/icon.min.css'>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="pushable">
+<div class="ui left visible vertical sidebar menu" style="overflow-y:scroll;">
+	<div class="item">
+		<img class="ui medium image" src="assets/logo.png">
+	</div>
+	<a class="active darkbrown item" id="help">Click for help!<i class="help icon"></i></i></a>
+  <div class="item">
+    <div class="ui small icon input"><input id="searchByNameID" type="text" placeholder="Search for Raga by name..."><i id="searchByName" class="inverted circular search link icon"></i></div>
+  </div>
+  <a class="active brown item">S</a>
+  <select name="gender" class="ui dropdown item" id="R">
+    <option value="R1">R1</option>
+    <option value="R2">R2</option>
+    <option value="R3">R3</option>
+  </select>
+  <select name="gender" class="ui compact dropdown item" id="G">
+    <option value="G1">G1</option>
+    <option value="G2">G2</option>
+    <option value="G3">G3</option>
+  </select>
+  <select name="gender" class="ui compact dropdown item" id="M">
+    <option value="M1">M1</option>
+    <option value="M2">M2</option>
+  </select>
+  <a class="active brown item">P</a>
+  <select name="gender" class="ui compact dropdown item" id="D">
+    <option value="D1">D1</option>
+    <option value="D2">D2</option>
+    <option value="D3">D3</option>
+  </select>
+	  <select name="gender" class="ui compact dropdown item" id="N">
+    <option value="N1">N1</option>
+    <option value="N2">N2</option>
+    <option value="N3">N3</option>
+  </select>
+  <a class="active brown item">S'</a>
+  <a class="active darkbrown item" id="searchRaga">Search By Swara<i class="search icon"></i></a>
+  <a class="grey mini item">© 2016 Melakarta.com All Rights Reserved</a>
+  <a class="mini item" href="acknowledgements.html">Acknowledgements</a>
+</div>
+
+<div class="pusher">
+<div class="ui relaxed grid">
+	<div class="row"><div class="fourteen wide column"><div id="chart"></div></div></div>
+</div>
+
+<div class="ui modal" id="ragaModal">
+  <div class="header">
+    <h3 id="ragaName">Dhirasankarabharanam</h3>
+    <div id="arohanam" class="ui medium green label"><div class="detail">Arohanam</div></div>
+    <div id="avarohanam" class="ui medium olive label"><div class="detail">Avarohanam</div></div>
+    <div id="listen-btn" class="ui mini green button" onclick="MIDIjs.play(currentRaga);">
+    	<i class="play icon"></i>
+    	Listen
+    </div>
+    <div id="listen-btn" class="ui mini red button" onclick="MIDIjs.stop();">
+    	<i class="stop icon"></i>
+    	Stop
+    </div>
+  </div>
+  <div class="content" style="position: relative;">
+  		<div class="ui two column middle aligned very relaxed stackable grid">
+  		  <div class="column">
+  		    <img id="scaleimage" class="ui centered medium image" src="images/Kanakangi.svg" alt="Western keyboard scale of the current Raga">
+  		  </div>
+  		  <div class="ui vertical divider">
+  		      <i class="bookmark icon"></i>
+  		    </div>
+  		  <div class="left aligned column">
+  		  	<h4 class="ui header">Popular Compositions</h4>
+  		    <div id="compositionList" class="ui bulleted list">
+  		      <div class="item">Sarōjadala Nētri and Dēvī Mīnānētri by Syama Sastri in Telugu</div>
+  		      <div class="item">Chalamela(Ata tala varnam) and Devi Jagath Janani by Swathi Thirunal maharaja</div>
+  		      <div class="item">Pogadirēlo Ranga by Purandara Dasa</div>
+  		    </div>
+  		  </div>
+  		</div>
+   </div>
+  <div class="actions">
+    <div class="ui black deny button">
+      Close
+    </div>
+  </div>
+</div>
+
+<div class="ui fullscreen modal" id="helpModal">
+  <i class="close icon"></i>
+  <div class="header">
+    Help
+  </div>
+  <div class="ui relaxed centered grid">
+  	<div class="row"></div>
+  	<div class="row">
+  		<div class="six wide column">
+  			<div class="image content">
+  				<img class="ui big centered rounded image" src="assets/help1.png">
+  			</div>
+  		</div>
+  		<div class="nine wide column">
+  			<div class="ui piled green segment">
+  				<h3 class="ui header">The Melakarta Chart </h3>
+	  			<p> 
+	  				The Melakarta Chart is a visual representation of all 72 Melakarta Ragas and their derivations. The chart is separated into a hierarchical tree model with representations for each swara family. The center of the chart represents the origin of all Melakarta ragas. The second level of circles represents the two Madhyama (M) swaras and their respective halves of the Melakarta structure. The third level of circles represents the 12 Chakras of Carnatic music. Each Chakra represents a particular combination of Rishabha and Gandhara swaras in its particular half of the chart. Clicking on the name or circle for any of the 72 ragas will bring up a popup which contains information about that particular raga. The left side of the panel includes an image of the western scale equivalent of the particular raga. The right side contains a few popular compositions in the selected scale. On the top of the panel you can listen to a short ascending (Arohanam) and descending (Avarohanam) audio representation of the scale. 
+	  			</p>
+  			</div>
+  		</div>
+  	</div>
+  	<div class="row">
+  		<div class="six wide column">
+  			<div class="image content">
+  				<img class="ui medium centered rounded image" src="assets/help3.png">
+  			</div>
+  		</div>
+  		<div class="nine wide column">
+  			<div class="ui piled brown segment">
+  			<h3 class="ui header">Searching By Swaras</h3>
+  			<p> 
+  				The "Search by Swara" feature is a tool to find a raga by the notes in its particular scale. There are a total of 7 different swaras in the Carnatic system. You can choose the pitch for 5 of these 7 notes (R,G,M,D,N). There are no variations of both Shadja (S) and Panchama (P) in a single octave therefore they are not alterable in the swara selection. Note that Rishabha (R) should always be a lower note than Gandhara (G) and that Dhaivata (D) should always be a lower note than Nishada (N). For Example, if you select G2, then you may only select R1 or R2. Once you have selected all five swaras from the dropdown, you may click the "Search By Swara" button to search the Melakarta chart for the corresponding raga. The raga will be highlighted in red. 
+  			</p>
+  			</div>
+  		</div>
+  	</div>
+  	<div class="row">
+  		<div class="six wide column">
+  			<div class="image content">
+  				<img class="ui medium centered rounded image" src="assets/help2.png">
+  			</div>
+  		</div>
+  		<div class="nine wide column">
+  			<div class="ui piled brown segment">
+	  			<h3 class="ui header">Search By Name</h3>
+	  			<p> 
+	  				The "Search By Name" feature is a simple tool that allows you to find a raga on the chart if you already know its name. Searched ragas will be highlted red on the chart, indicating their location. 
+	  			</p>
+  			</div>
+  		</div>
+  	</div>
+  </div>
+</div>
+</div>
+
+<script src="js/midi-writer-js.js"></script>
+<script src="js/d3.min.js"></script> 
+<script src="js/jquery-3.0.0.min.js"></script> 
+<script src="js/jquery.scrollTo.min.js"></script>
+<script src="js/semantic.min.js"></script>
+<script type='text/javascript' src='http://www.midijs.net/lib/midi.js'></script>
+<script src="js/compositions.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
