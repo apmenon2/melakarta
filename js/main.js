@@ -1,4 +1,4 @@
-// Initialize all Semanti Components
+// Initialize all Semantic Components
 $('.ui.left.sidebar').sidebar({
     transition: 'overlay'
 });
@@ -239,7 +239,11 @@ var write;
 var currentRaga;
 
 
-//write a binary64 MIDI file with the given array of notes
+/**
+ * write a binary64 MIDI file with the given array of notes
+ * @param  {Array} notes [description]
+ * @return {[type]}       [description]
+ */
 function createMIDI(notes){
 	track = new MidiWriter.Track();
 	track.addEvent(new MidiWriter.ProgramChangeEvent({instrument:105}));
@@ -257,7 +261,11 @@ function createMIDI(notes){
 }
 
 
-//helper function to reverse order of words in a string
+/**
+ * helper function to reverse order of words in a string
+ * @param  {String} s [description]
+ * @return {[type]}   [description]
+ */
 function reverse(s) {
   var split = s.split(' ');
   var result = [];
